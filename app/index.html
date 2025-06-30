@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>bpmn-js-react-properties-panel</title>
+
+  <link rel="stylesheet" href="vendor/bpmn-js/assets/diagram-js.css" />
+  <link rel="stylesheet" href="vendor/bpmn-js/assets/bpmn-font/css/bpmn-embedded.css" />
+  <link rel="stylesheet" href="../app/styles/app.css" />
+  <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Add buttons library -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+
+
+
+</head>
+<body>
+  <div class="modeler-parent">
+    <div id="modeler-container"></div>
+    <div id="properties-container"></div>
+  </div>
+
+  <ul class="buttons">
+
+    <button id="basicBtn" class="btnAmaranth">BASIC</button>
+
+    <button id="cstnuBtn" class="btnCerise">CSTNU</button>
+
+    <button id="pstnuBtn" class="btnClaret">PSTNU</button>
+
+  <li>
+
+    <a id="js-download-diagram" class="btn" href title="download BPMN diagram"><i class="fa fa-download"></i>
+      BPMN diagram
+    </a>
+  </li>
+  <li>
+    <a id="js-download-svg" class="btn" href title="download as SVG image"><i class="fa fa-download"></i>
+      SVG image
+    </a>
+  </li>
+  <li>
+    <a id="js-download-json" class="btn" href title="download diagram as JSON"><i class="fa fa-download"></i>
+      JSON diagram
+    </a>
+  </li>
+  <li id="js-propagation-result">
+  </li>
+  </ul>
+
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
